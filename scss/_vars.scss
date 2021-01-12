@@ -1,0 +1,54 @@
+$borderGray: #7e7e7e;
+$borderWhite: #fff;
+$bgColor: rgb(198, 200, 196);
+$colorWhite: #fff;
+$colorGray: #7e7e7e;
+
+.sub-menu_item {
+  .ShopAll::before {
+    content: "Shop All" !important;
+  }
+  .NewArrivals::before {
+    content: "New arrivals" !important;
+  }
+  .Exclusive::before {
+    content: "Exclusive";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+  .ShopAll::before {
+    content: "Shop All";
+  }
+}
+
+.gray-bg {
+  height: 14vw !important;
+  background-color: $bgColor !important;
+  .menu-list {
+    .menu-list-container {
+      opacity: 1 !important;
+      margin-top: 0 !important;
+    }
+  }
+}
+.menu-visible {
+  .menu-list {
+    .menu-list-container {
+      opacity: 1 !important;
+      margin-top: 0 !important;
+    }
+  }
+}
