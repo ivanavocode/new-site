@@ -12,7 +12,7 @@
   const sideContainer = document.getElementsByClassName("sideContainer");
   const mArrowLeft = document.getElementById("mArrowLeft");
   const mLogo = document.getElementById("mLogo");
-  const mform = document.getElementById("mFormMenuSearch");
+  const mobileForm = document.getElementById("mobileFormMenuSearch");
   let i;
 
   const hoverMenu = "hover-container";
@@ -135,9 +135,9 @@
       }
     }
     if (id == "AccountList" || id == "countryList") {
-      mform.classList.add("none");
+      mobileForm.classList.add("none");
     } else {
-      mform.classList.remove("none");
+      mobileForm.classList.remove("none");
     }
     if (id) {
       for (let i = 0; i < list.length; i++) {
@@ -197,7 +197,7 @@
 
   //page
 
-  function pageTogggle(id) {
+  function pageToggle(id) {
     const pageNav = document.getElementById("pageNav");
     const pageContainer = document.getElementById("pageContainer");
     const btn = pageNav.getElementsByClassName("page-btn");
