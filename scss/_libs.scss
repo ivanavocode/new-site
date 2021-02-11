@@ -347,23 +347,3 @@ template {
 [hidden] {
   display: none;
 }
-.none {
-  display: none !important;
-}
-.row {
-  margin-right: 0vw !important;
-  margin-left: 0vw !important;
-  padding: 0 2vw;
-}
-button,
-a {
-  color: inherit;
-  text-decoration: none;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style-type: none;
-}

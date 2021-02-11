@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e02dd3ec-e515-4b9f-86fc-6b22f24a9854" name="d2.blackmonday.xyz" url="http://d2.blackmonday.xyz">
+        <fileTransfer rootFolder="/public_html" accessType="SFTP" host="d2.blackmonday.xyz" port="22" sshConfigId="404cff15-1ba1-493c-aecd-26c3bb0ff077" sshConfig="d2.blackmonday.xyz@d2.blackmonday.xyz:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
